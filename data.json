@@ -1,0 +1,115 @@
+{
+    "jajan_pasar": [
+        {
+            "foto": "images/produk/arem.jpg",
+            "nama": "Arem Arem",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=arem+arem&tbm=shop"
+        },
+        {
+            "foto": "images/produk/bolu_kukus.jpg",
+            "nama": "Bolu Kukus",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=bolu+kukus&tbm=shop"
+        },
+        {
+            "foto": "images/produk/awug.jpg",
+            "nama": "Awug Awug",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=awug+awug&tbm=shop"
+        },
+        {
+            "foto": "images/produk/klepon.jpg",
+            "nama": "Klepon",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=klepon&tbm=shop"
+        }
+    ],
+    "gorengan": [
+        {
+            "foto": "images/produk/tahu_bakso.jpg",
+            "nama": "Tahu Bakso",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=tahu+bakso&tbm=shop"
+        },
+        {
+            "foto": "images/produk/pastel.jpg",
+            "nama": "Pastel",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=pastel&tbm=shop"
+        },
+        {
+            "foto": "images/produk/risoles.jpg",
+            "nama": "Risoles",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=risoles&tbm=shop"
+        },
+        {
+            "foto": "images/produk/kroket.jpg",
+            "nama": "Kroket",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=kroket&tbm=shop"
+        }
+    ],
+    "pastry": [
+        {
+            "foto": "images/produk/pie_buah.jpg",
+            "nama": "Pie Buah",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=pie+buah&tbm=shop"
+        },
+        {
+            "foto": "images/produk/soes.jpg",
+            "nama": "Soes",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=soes&tbm=shop"
+        },
+        {
+            "foto": "images/produk/bolen.jpg",
+            "nama": "Bolen",
+            "size": "1 pcs",
+            "harga": "3500",
+            "link": "https://www.google.com/search?q=bolen&tbm=shop"
+        }
+    ],
+    "donat": [
+        {
+            "foto": "images/produk/donat_coklat.jpg",
+            "nama": "Donat Coklat",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=donat+coklat&tbm=shop"
+        },
+        {
+            "foto": "images/produk/donat_salju.jpg",
+            "nama": "Donat Salju",
+            "size": "1 pcs",
+            "harga": "2500",
+            "link": "https://www.google.com/search?q=donat+salju&tbm=shop"
+        },
+        {
+            "foto": "images/produk/bomboloni.jpg",
+            "nama": "Bomboloni",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=bomboloni&tbm=shop"
+        },
+        {
+            "foto": "images/produk/roti_pisang.jpg",
+            "nama": "Roti Pisang",
+            "size": "1 pcs",
+            "harga": "3000",
+            "link": "https://www.google.com/search?q=roti+pisang&tbm=shop"
+        }
+    ]
+}
