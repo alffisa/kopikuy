@@ -14,22 +14,30 @@
     <script src="js/jquery-3.6.3.min.js"></script>
     <style>
         /* tulis kode CSS internal di bawah sini */
+        @font-face {
+            src: url(../fonts/poppins.woff2);
+            font-family: 'Poppins';
+        }
+
         body {
             background-image: url(images/background/bgkopi.png);
+            font-family: 'Poppins';
         }
 
         .navbar,
         .footer {
             background-color: #ac7f20;
+            box-shadow: 0 3px 7px -2px #cfa313;
         }
 
-        footer .nav-link :hover {
-            color: black;
+        .nav-link {
+            color: #fff;
+            font-weight: 200;
         }
 
-
-
-
+        nav .btn {
+            color: aquamarine;
+        }
 
         /* Batas Akhir penulisan kode CSS internal */
     </style>
@@ -38,10 +46,10 @@
 <body>
     <!-- Tulis Kode Bootstrap Di Bawah Sini -->
 
-    <nav class="navbar navbar-dark navbar-expand-lg bisadicopy">
+    <nav class="navbar sticky-top navbar-dark navbar-expand-lg py-1 bisadicopy">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="images/logo/logo_kuy.png" height="30" alt="image">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
                 aria-controls="navbarNav11">
@@ -62,30 +70,28 @@
                         <a class="nav-link" href="index.html#contact-us">Contact Us</a>
                     </li>
                 </ul>
-                <a class="btn btn-outline-dark ms-md-3" href="https://wa.me/6285678654326"><i
+                <a class="btn btn-outline-light ms-md-5" href="https://wa.me/6285678654326"><i
                         class="bi bi-whatsapp"></i>
                     Chat</a>
             </div>
         </div>
     </nav>
 
-    <section class="produk text-center mt-2">
+    <section class="produk text-center mt-5">
         <div class="container">
-            <h1> Yuk Beli Makanan Favoritmu</h1>
-            <p class="fs-5">Jajan tradisional dan kekinian yang pasti enak</p>
+            <h1> Pilih Produk Anda </h1>
+            <p class="fs-5">Kualitas terbaik biji kopi pilihan, fresh diambil langsung dari petani</p>
             <hr class="border border-warning border-2 opacity-50">
             <div class="form-floating">
-                <select class="form-select" id="select_jajan" aria-label="Floating label select example">
+                <select class="form-select" id="select_kopi" aria-label="Floating label select example">
                     <option selected>-</option>
-                    <option value="jajan_pasar">Jajan Pasar</option>
-                    <option value="gorengan">Gorengan</option>
-                    <option value="pastry">Pastry</option>
-                    <option value="donat">Donat</option>
+                    <option value="arabica">Arabica</option>
+                    <option value="robusta">Robusta</option>
+                    <option value="nonkopi">Non Kopi</option>
                 </select>
-                <label for="select_jajan">Pilih Jenis Jajanan</label>
+                <label for="select_kopi">Pilih Jenis Kopi</label>
             </div>
             <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
-
             </div>
         </div>
     </section>
@@ -116,16 +122,19 @@
             </div>
         </div>
     </footer>
+
     <!-- Batas Akhir penulisan kode Bootstrap -->
     <script>
         /* Tulis Javascript Di bawah Sini */
+
+        baris_produk.innerHTML = `<h5 class="col-12 text-center">Harap Pilih Jenis Produk</h5>`
 
         var sumber = "https://rikikurnia.com/prakerja/api/kopi"
         var sumber2 = "data.json"
 
         var pilihan = ""
-        select_jajan.onchange = function () {
-            pilihan = select_jajan.value
+        select_kopi.onchange = function () {
+            pilihan = select_kopi.value
             ambilData()
         }
 
@@ -137,21 +146,21 @@
                 baris_produk.innerHTML = ""
                 console.log(produk_pilihan)
 
-                produk_pilihan.forEach(jajan => {
+                produk_pilihan.forEach(kopi => {
                     baris_produk.innerHTML += `<div class="col mb-2">
                     <div class="card">
-                        <img src="${jajan.foto}" class="card-img-top" alt="...">
+                        <img src="${kopi.foto}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">${jajan.nama}</h5>
+                            <h5 class="card-title">${kopi.nama}</h5>
                             <div class="row hargasize my-4">
                                 <div class="col">
-                                    ${jajan.size}
+                                    ${kopi.size}
                                 </div>
                                 <div class="col text-primary fw-bold">
-                                    ${jajan.harga}
+                                    ${kopi.harga}
                                 </div>
                             </div>
-                            <a href="${jajan.link}" class="btn btn-warning w-100"><i class="bi bi-cart4"></i> Beli</a>
+                            <a href="${kopi.link}" class="btn btn-warning w-100"><i class="bi bi-cart4"></i> Beli</a>
                         </div>
                     </div>
                 </div>`
