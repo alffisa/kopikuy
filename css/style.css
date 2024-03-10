@@ -166,12 +166,12 @@ img.logo {
    /* height mengatur tinggi elemen */
    height: 40px;
    /* penjelasan margin mirip dengan padding, fungsinya untuk memberi jarak pada elemen */
-   margin-left: 20px;
+   margin-left: 50px;
 }
 
 div.navigasi {
    margin-left: auto;
-   margin-right: 15px;
+   margin-right: 10px;
 }
 
 nav a {
@@ -180,13 +180,17 @@ nav a {
    padding-right: 8px;
 }
 
+nav a:hover {
+   color: #000;
+}
+
 a.shop {
-   margin-right: 100px;
+   margin-right: 50px;
 }
 
 a.chat {
-   margin-right: 30px;
-   background-color: rgb(8, 69, 8);
+   margin-right: 50px;
+   background-color: rgb(17, 187, 17);
    color: #fff;
    padding-top: 5px;
    padding-right: 15px;
@@ -530,6 +534,10 @@ footer div.navigasi {
 
 footer div.navigasi a {
    padding: 8px;
+}
+
+footer a:hover {
+   color: #000;
 }
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
