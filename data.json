@@ -1,115 +1,176 @@
 {
-    "jajan_pasar": [
+    "arabica": [
         {
-            "foto": "images/produk/arem.jpg",
-            "nama": "Arem Arem",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=arem+arem&tbm=shop"
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
         },
         {
-            "foto": "images/produk/bolu_kukus.jpg",
-            "nama": "Bolu Kukus",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=bolu+kukus&tbm=shop"
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
         },
         {
-            "foto": "images/produk/awug.jpg",
-            "nama": "Awug Awug",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=awug+awug&tbm=shop"
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
         },
         {
-            "foto": "images/produk/klepon.jpg",
-            "nama": "Klepon",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=klepon&tbm=shop"
+            "foto": "images/produk/kopi_luwak_arabica.jpg",
+            "nama": "Kopi Luwak Arabica",
+            "size": "50 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=kopi+luwak+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/arabica_ciwidey.jpg",
+            "nama": "Arabica Ciwidey",
+            "size": "100 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=arabica+ciwidey&tbm=shop"
+        },
+        {
+            "foto": "images/produk/arabica_kintamani.jpg",
+            "nama": "Arabica Kintamani",
+            "size": "200 Gram",
+            "harga": "250.000",
+            "link": "https://www.google.com/search?q=arabica+kintamani&tbm=shop"
+        },
+        {
+            "foto": "images/produk/kopi_gayo.jpg",
+            "nama": "Kopi Gayo",
+            "size": "200 Gram",
+            "harga": "300.000",
+            "link": "https://www.google.com/search?q=kopi+gayo&tbm=shop"
+        },
+        {
+            "foto": "images/produk/arabica_papandayan.jpg",
+            "nama": "Arabica Papandayan",
+            "size": "100 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=arabica+papandayan&tbm=shop"
         }
     ],
-    "gorengan": [
+    "robusta": [
         {
-            "foto": "images/produk/tahu_bakso.jpg",
-            "nama": "Tahu Bakso",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=tahu+bakso&tbm=shop"
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
         },
         {
-            "foto": "images/produk/pastel.jpg",
-            "nama": "Pastel",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=pastel&tbm=shop"
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
         },
         {
-            "foto": "images/produk/risoles.jpg",
-            "nama": "Risoles",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=risoles&tbm=shop"
+            "foto": "images/produk/robusta_rempah.jpg",
+            "nama": "Robusta Rempah",
+            "size": "250 Gram",
+            "harga": "250.000",
+            "link": "https://www.google.com/search?q=robusta+rempah&tbm=shop"
         },
         {
-            "foto": "images/produk/kroket.jpg",
-            "nama": "Kroket",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=kroket&tbm=shop"
+            "foto": "images/produk/robusta_wine.jpg",
+            "nama": "Robusta Wine",
+            "size": "150 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=robusta+wine&tbm=shop"
+        },
+        {
+            "foto": "images/produk/espresso_robusta.jpg",
+            "nama": "Espresso Robusta",
+            "size": "150 Gram",
+            "harga": "300.000",
+            "link": "https://www.google.com/search?q=espresso+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/robusta_temanggung.jpg",
+            "nama": "Robusta Temanggung",
+            "size": "100 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=robusta+temanggung&tbm=shop"
+        },
+        {
+            "foto": "images/produk/kopi_luwak_robusta.jpg",
+            "nama": "Kopi Luwak Robusta",
+            "size": "50 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=robusta+temanggung&tbm=shop"
+        },
+        {
+            "foto": "images/produk/robusta_lampung.jpg",
+            "nama": "Robusta Lampung",
+            "size": "50 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=robusta+lampung&tbm=shop"
         }
     ],
-    "pastry": [
+    "nonkopi": [
         {
-            "foto": "images/produk/pie_buah.jpg",
-            "nama": "Pie Buah",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=pie+buah&tbm=shop"
+            "foto": "images/produk/milk_shake.jpg",
+            "nama": "Milk Shake",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=milk+shake&tbm=shop"
         },
         {
-            "foto": "images/produk/soes.jpg",
-            "nama": "Soes",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=soes&tbm=shop"
+            "foto": "images/produk/smoothie.jpg",
+            "nama": "Smoothie",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=smoothie&tbm=shop"
         },
         {
-            "foto": "images/produk/bolen.jpg",
-            "nama": "Bolen",
-            "size": "1 pcs",
-            "harga": "3500",
-            "link": "https://www.google.com/search?q=bolen&tbm=shop"
-        }
-    ],
-    "donat": [
-        {
-            "foto": "images/produk/donat_coklat.jpg",
-            "nama": "Donat Coklat",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=donat+coklat&tbm=shop"
+            "foto": "images/produk/greentea.jpg",
+            "nama": "Green Tea",
+            "size": "200 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=greentea&tbm=shop"
         },
         {
-            "foto": "images/produk/donat_salju.jpg",
-            "nama": "Donat Salju",
-            "size": "1 pcs",
-            "harga": "2500",
-            "link": "https://www.google.com/search?q=donat+salju&tbm=shop"
+            "foto": "images/produk/lemontea.jpg",
+            "nama": "Lemon Tea",
+            "size": "100 Gram",
+            "harga": "90.000",
+            "link": "https://www.google.com/search?q=robusta+wine&tbm=shop"
         },
         {
-            "foto": "images/produk/bomboloni.jpg",
-            "nama": "Bomboloni",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=bomboloni&tbm=shop"
+            "foto": "images/produk/cokelat_marshmellow.jpg",
+            "nama": "Cokelat Marshmellow",
+            "size": "150 Gram",
+            "harga": "300.000",
+            "link": "https://www.google.com/search?q=cokelat+marshmellow&tbm=shop"
         },
         {
-            "foto": "images/produk/roti_pisang.jpg",
-            "nama": "Roti Pisang",
-            "size": "1 pcs",
-            "harga": "3000",
-            "link": "https://www.google.com/search?q=roti+pisang&tbm=shop"
+            "foto": "images/produk/icecream.jpg",
+            "nama": "Ice Cream",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=ice+cream&tbm=shop"
+        },
+        {
+            "foto": "images/produk/soda.jpg",
+            "nama": "Soda",
+            "size": "50 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=soda&tbm=shop"
+        },
+        {
+            "foto": "images/produk/juice.jpg",
+            "nama": "Juice",
+            "size": "50 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=juice&tbm=shop"
         }
     ]
 }
